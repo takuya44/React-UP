@@ -1,5 +1,9 @@
 import { CssModules } from "./components/CssModules";
 import { InlineStyle } from "./components/InlineStyle";
+import { StyledComponents } from "./components/StyledCoponents";
+import { StyledJsx } from "./components/StyledJsx";
+import { Emotion } from "./components/Emotion";
+
 import "./styles.css";
 
 export default function App() {
@@ -7,6 +11,9 @@ export default function App() {
     <div className="App">
       <InlineStyle />
       <CssModules />
+      <StyledJsx />
+      <StyledComponents />
+      <Emotion />
     </div>
   );
 }
